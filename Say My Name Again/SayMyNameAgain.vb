@@ -2,7 +2,7 @@
 'RCET0265
 'Spring 2022
 'Say My Name Again
-'url
+'https://github.com/MEBreves/Say-My-Name-Again
 
 Option Strict On
 Option Explicit On
@@ -20,6 +20,7 @@ Module SayMyNameAgain
         userName = Console.ReadLine()
         Console.WriteLine()
 
+        'Deciding which names to respond to
         If userName = "Emily" Or userName = "Joe" Then
             Console.WriteLine("Hello, " & userName & "!")
             Console.WriteLine()
@@ -31,6 +32,7 @@ Module SayMyNameAgain
             Console.WriteLine()
         End If
 
+        'Letting the user see the output on the console before ending
         Console.Read()
 
     End Sub
